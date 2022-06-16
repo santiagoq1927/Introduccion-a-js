@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tarea.css"/>
+    <title>Tarea 6</title>
+</head>
+<body>
+    
+    <form id="calcular-edad">
+        <label>Ingrese numero de integrantes: </label>
+        <input type="number" id="cantidad-integrantes">
+        <button type="submit" id="siguiente-paso">Siguiente</button>
+
+        <div id="integrantes">
+
+        </div>
+        <button type="submit" id="reset">Reset</button>
+        <button type="submit" id="analizar-edad" class="oculto">Analizar edades</button>
+        <button type="submit" id="salario" class="oculto">Salario</button>  
+
+        <div id="analisis-edad" class="oculto">
+            <p>Mayor edad: <strong id="mayor-edad"></strong></p>
+            <p>Menor edad: <strong id="menor-edad"></strong></p>
+            <p>Promedio edad: <strong id="promedio-edad"></strong></p>
+        </div>
+
+        <div id="integrantes-salario" class="oculto">
+            <label>Ingrese numero de integrantes trabajadores: </label>
+            <input type="number" id="cantidad-salario">
+            <button type="submit" id="siguiente-salario">Siguiente</button>
+        </div>
+
+        <div id="integrantesSalario">
+
+        </div>
+        <button type="submit" id="ocultar-salario" class="oculto">Ocultar salario</button>
+        <button type="submit" id="analizar-salario" class="oculto">Analizar salario</button>
+
+        <div id="analisis-salario" class="oculto">
+            <p>Mayor salario: <strong id="mayor-salario"></strong></p>
+            <p>Menor salario: <strong id="menor-salario"></strong></p>
+            <p>Promedio promedio: <strong id="promedio-salario"></strong></p>
+        </div>
+
+    </form>
+
+    <script type="text/javascript" src="tarea-clase-6.js"></script>
+</body>
+</html>
